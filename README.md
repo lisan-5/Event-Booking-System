@@ -1,8 +1,3 @@
-# Event-Booking-System
-
-**🎫 Event Booking System**
-A Laravel app where users can book event tickets and receive QR codes. Organizers manage events, seat limits, and bookings. Includes role-based access, PDF tickets, and an admin dashboard.
-
 # Event Ticketing System
 
 A robust Laravel application for managing events, ticket bookings, and attendee verification with QR codes. Includes features for organizers, attendees, and administrators.
@@ -51,21 +46,26 @@ A robust Laravel application for managing events, ticket bookings, and attendee 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-repo/event-ticketing.git
-cd event-ticketing
+git clone https://github.com/lisan-5/Event-Booking-System.git
+cd Event-Booking-System
 ```
 
 Install dependencies:
 composer install
 npm install
+
 Create and configure .env file:
 cp .env.example .env
+
 Generate application key:
 php artisan key:generate
+
 Run migrations and seeders:
 php artisan migrate --seed
+
 Compile assets:
 npm run build
+
 Set up queue worker (optional for email notifications):
 php artisan queue:work
 Configuration
